@@ -19,6 +19,13 @@
 .env
 .env.local
 
+# Volcados de base de datos con datos reales (usuarios, contraseñas hasheadas) —
+# nunca deben subirse a un repo público
+/public/dbdata.sql
+/database/phpmyadmin_import.sql
+/database/schema.sql
+/database/seed_piloto.sql
+
 # Archivos de sistema
 .DS_Store
 Thumbs.db
